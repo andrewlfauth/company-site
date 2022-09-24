@@ -17,25 +17,25 @@ function Footer() {
             <div className='flex flex-col space-y-4'>
               <span className='text-lg tracking-wider'>Company</span>
               <Link
-                className='text-sm tracking-tight duration-100 cursor-none hover:font-bold hover:text-red-500 hover:underline'
+                className='text-sm tracking-tight duration-100 cursor-none hover:text-accent-red w-fit hover:underline'
                 to='/'
               >
                 Home
               </Link>
               <Link
-                className='text-sm tracking-tight duration-100 cursor-none hover:font-bold hover:text-red-500 hover:underline'
+                className='text-sm tracking-tight duration-100 cursor-none hover:text-accent-red w-fit hover:underline'
                 to='/'
               >
                 Services
               </Link>
               <Link
-                className='text-sm tracking-tight duration-100 cursor-none hover:font-bold hover:text-red-500 hover:underline'
+                className='text-sm tracking-tight duration-100 cursor-none hover:text-accent-red w-fit hover:underline'
                 to='/'
               >
                 Pricing
               </Link>
               <Link
-                className='text-sm tracking-tight duration-100 cursor-none hover:font-bold hover:text-red-500 hover:underline'
+                className='text-sm tracking-tight duration-100 cursor-none hover:text-accent-red w-fit hover:underline'
                 to='/'
               >
                 About
@@ -45,19 +45,19 @@ function Footer() {
             <div className='flex flex-col space-y-4'>
               <span className='text-lg tracking-wider'>Services</span>
               <Link
-                className='text-sm tracking-tight duration-100 cursor-none hover:font-bold hover:text-red-500 hover:underline'
+                className='text-sm tracking-tight duration-100 cursor-none hover:text-accent-red w-fit hover:underline'
                 to='/'
               >
                 Web Design
               </Link>
               <Link
-                className='text-sm tracking-tight duration-100 cursor-none hover:font-bold hover:text-red-500 hover:underline'
+                className='text-sm tracking-tight duration-100 cursor-none hover:text-accent-red w-fit hover:underline'
                 to='/'
               >
                 SEO
               </Link>
               <Link
-                className='text-sm tracking-tight duration-100 cursor-none hover:font-bold hover:text-red-500 hover:underline'
+                className='text-sm tracking-tight duration-100 cursor-none hover:text-accent-red w-fit hover:underline'
                 to='/'
               >
                 Content Strategy

@@ -2097,6 +2097,11 @@ textarea:focus-within ~ label {
   color: rgb(89 223 253 / var(--tw-text-opacity));
 }
 
+.hover\:text-accent-red:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 48 79 / var(--tw-text-opacity));
+}
+
 .hover\:underline:hover {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
