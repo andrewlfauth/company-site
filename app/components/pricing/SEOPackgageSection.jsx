@@ -8,22 +8,22 @@ function SEOPackgageSection() {
         </span>
 
         <div className='grid grid-cols-2 gap-2 mx-auto mt-6 sm:gap-4 w-fit md:grid-cols-3'>
-          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
+          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow select-none sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
             SEO Site Audit
           </div>
-          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
+          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow select-none sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
             Competitor Analysis
           </div>
-          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
+          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow select-none sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
             On-Page Optimization
           </div>
-          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
+          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow select-none sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
             Keyword Strategy
           </div>
-          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
+          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow select-none sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
             Tracking & Analysis
           </div>
-          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
+          <div className='py-3 my-auto text-sm font-semibold tracking-tight duration-100 bg-gray-300 rounded-full shadow select-none sm:text-base hover:bg-primary-dark hover:text-secondary-blue text-primary w-44 sm:w-52'>
             XML Sitemap
           </div>
         </div>
