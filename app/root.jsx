@@ -31,11 +31,11 @@ export async function action({ request }) {
   const formData = await request.formData()
   const { ...values } = Object.fromEntries(formData)
 
-  // await new Promise((res) => setTimeout(() => res(), 1000))
-
   if (values.component === 'LeavingPagePopup') {
+    sendClientFormData(values)
     return { LeavingPagePopup: { sent: true } }
   }
+
   if (values.component === 'ContactForm') {
     sendClientFormData(values)
     return { ContactForm: { sent: true } }
