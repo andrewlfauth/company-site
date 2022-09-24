@@ -6,14 +6,10 @@ import CTASection from '../components/index/CTASection'
 import sendClientFormData from '../nodeMailer/sendClientFormData.server'
 
 export async function action({ request }) {
-  // handle HeroForm && Popup
+  // handles Popup
   const formData = await request.formData()
   const { ...values } = Object.fromEntries(formData)
 
-  if (values.component === 'HeroForm') {
-    sendClientFormData(values)
-    return { HeroForm: { sent: true } }
-  }
   if (values.component === 'Popup') {
     sendClientFormData(values)
     return { Popup: { sent: true } }
