@@ -1430,8 +1430,20 @@ textarea:focus-within ~ label {
   --tw-gradient-to: #002651;
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-right-top {
   background-position: right top;
+}
+
+.bg-bottom {
+  background-position: bottom;
 }
 
 .bg-no-repeat {
@@ -1572,6 +1584,14 @@ textarea:focus-within ~ label {
 
 .pl-4 {
   padding-left: 1rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
 }
 
 .text-left {
@@ -2581,6 +2601,10 @@ textarea:focus-within ~ label {
 
   .lg\:pb-8 {
     padding-bottom: 2rem;
+  }
+
+  .lg\:pt-36 {
+    padding-top: 9rem;
   }
 
   .lg\:text-left {
