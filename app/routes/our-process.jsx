@@ -7,7 +7,7 @@ function Index() {
     <div>
       <PageHeader
         title='Our Process'
-        body='Websites designed with your business goals in mind.'
+        body='Website design with your business goals in mind.'
         bg={true}
       />
       <ProcessSection />
