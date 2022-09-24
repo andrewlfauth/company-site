@@ -8,7 +8,7 @@ function ProcessSection() {
   return (
     <section className='bg-white'>
       <div className='px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-24'>
-        <h2 className='text-3xl font-extrabold leading-8 tracking-tight text-center sm:text-4xl'>
+        <h2 className='text-3xl font-semibold leading-8 tracking-tight text-center font-inter sm:text-4xl'>
           A marketing focused approach to web design.
         </h2>
 
