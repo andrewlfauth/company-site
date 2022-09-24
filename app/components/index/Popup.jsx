@@ -11,12 +11,12 @@ function Popup({ tint }) {
   })
   const submitButtonText =
     transition?.submission?.formData.get('component') === 'Popup'
-      ? 'Submitting...'
+      ? 'Submitting'
       : action?.Popup?.sent
       ? 'Sent!'
       : 'Submit'
   const disableForm =
-    submitButtonText === 'Submitting...' || submitButtonText === 'Sent!'
+    submitButtonText === 'Submitting' || submitButtonText === 'Sent!'
 
   useClosePopupOnSuccessfulSubmission(action?.Popup?.sent, setShowPopup, 3000)
 
