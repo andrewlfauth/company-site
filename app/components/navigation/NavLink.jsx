@@ -9,7 +9,7 @@ function NavLink({ children, to, showScrollNav }) {
         to={to}
         className={`${
           showScrollNav
-            ? 'text-primary after:bg-primary font-bold'
+            ? 'text-primary after:bg-primary font-semibold'
             : 'text-white after:bg-white font-medium'
         } ${
           to === activePath ? 'after:scale-x-100' : 'after:scale-x-0'
