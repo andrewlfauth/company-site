@@ -12,6 +12,7 @@ import favicon from '~/assets/favicon.svg'
 import HeroCursor from '~/components/index/HeroCursor'
 import Footer from '~/components/shared/Footer'
 import LeavingPagePopup from './components/shared/LeavingPagePopup'
+import sendClientFormData from './nodeMailer/sendClientFormData.server'
 
 export const meta = () => ({
   charset: 'utf-8',
@@ -30,12 +31,13 @@ export async function action({ request }) {
   const formData = await request.formData()
   const { ...values } = Object.fromEntries(formData)
 
-  await new Promise((res) => setTimeout(() => res(), 1000))
+  // await new Promise((res) => setTimeout(() => res(), 1000))
 
   if (values.component === 'LeavingPagePopup') {
     return { LeavingPagePopup: { sent: true } }
   }
   if (values.component === 'ContactForm') {
+    sendClientFormData(values)
     return { ContactForm: { sent: true } }
   }
 
