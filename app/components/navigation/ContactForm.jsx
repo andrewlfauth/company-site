@@ -57,7 +57,7 @@ function ContactForm() {
           type='button'
           aria-label='close contact form'
           onClick={() => setOpen(false)}
-          className='absolute p-0 text-xl font-bold top-4 right-4'
+          className='absolute p-0 text-xl font-bold lg:cursor-none top-4 right-4'
         >
           <AiOutlineClose />
         </button>
@@ -155,7 +155,7 @@ function ContactForm() {
           <button
             disabled={disableForm}
             type='submit'
-            className='w-full py-4 mt-4 text-xl font-medium tracking-tight text-white duration-100 rounded-md bg-gradient-to-br from-blue-800 to-primary cursor-none'
+            className='w-full py-4 mt-4 text-xl font-medium tracking-tight text-white duration-100 rounded-md bg-gradient-to-br from-blue-800 to-primary lg:cursor-none'
           >
             {submitButtonText}
           </button>

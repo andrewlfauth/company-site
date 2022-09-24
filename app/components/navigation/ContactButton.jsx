@@ -11,7 +11,7 @@ function ContactButton({ showScrollNav }) {
         showScrollNav
           ? 'lg:border-0 text-white lg:bg-gradient-to-b from-blue-800 to-primary'
           : 'text-white border-white'
-      } items-center hidden px-4 py-2 tracking-tight duration-100 border-2 rounded md:flex group cursor-none`}
+      } items-center hidden px-4 py-2 tracking-tight duration-100 border-2 rounded md:flex group cursor-pointer lg:cursor-none`}
       onClick={() => setShowForm(true)}
     >
       Contact Us

@@ -26,7 +26,7 @@ function MobileNavList({ open, close }) {
         <ul className='space-y-2 text-2xl'>
           <AiOutlineClose
             aria-label='close navigation'
-            className='absolute text-3xl text-white top-8 right-8'
+            className='absolute text-3xl text-white cursor-pointer top-8 right-8'
             onClick={close}
           />
           <li>

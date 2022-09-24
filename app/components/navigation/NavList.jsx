@@ -26,9 +26,15 @@ function NavList({
         } lg:hidden text-4xl`}
       >
         {showMobileNav ? (
-          <AiOutlineClose onClick={() => setShowMobileNav(false)} />
+          <AiOutlineClose
+            className='cursor-pointer'
+            onClick={() => setShowMobileNav(false)}
+          />
         ) : (
-          <MdOutlineMenu onClick={() => setShowMobileNav(true)} />
+          <MdOutlineMenu
+            className='cursor-pointer'
+            onClick={() => setShowMobileNav(true)}
+          />
         )}
       </li>
       <li>

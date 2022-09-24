@@ -31,7 +31,7 @@ function CTASection() {
         <button
           ref={btnRef}
           onClick={() => showContactForm(true)}
-          className='w-full py-4 mt-4 text-2xl font-bold duration-100 border-4 rounded md:w-2/3 lg:w-1/3 lg:mt-0 border-secondary-blue text-secondary-blue lg:hover:bg-white border-opacity-80 lg:hover:bg-opacity-5'
+          className='w-full py-4 mt-4 text-2xl font-bold duration-100 border-4 rounded md:w-2/3 lg:w-1/3 lg:mt-0 border-secondary-blue text-secondary-blue lg:hover:bg-white border-opacity-80 lg:cursor-none lg:hover:bg-opacity-5'
         >
           Get Started
         </button>
