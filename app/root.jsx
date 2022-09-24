@@ -54,7 +54,7 @@ export default function App() {
           crossOrigin='true'
         />
         <link
-          href='https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Poppins:wght@200;300;400&family=Inter:wght@400;500;700;800&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Inter:wght@400;500;600;800&display=swap'
           rel='stylesheet'
         ></link>
         <Meta />
@@ -62,7 +62,7 @@ export default function App() {
       </head>
       <body
         style={{ overflow: 'overlay' }}
-        className='scrollbar font-poppins cursor-none'
+        className='scrollbar font-inter cursor-none'
       >
         <Navbar />
         <HeroCursor />
