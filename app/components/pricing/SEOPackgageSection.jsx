@@ -1,29 +1,29 @@
 function SEOPackgageSection() {
   return (
-    <div className='bg-primary'>
+    <div className='-mt-1 bg-primary'>
       <section className='block px-4 py-10 pb-16 mx-auto text-center text-white md:pb-32 md:py-0 sm:px-6 lg:px-8 max-w-7xl'>
         <span className='text-3xl'>
           Want to <span className='text-accent-red'>supercharge</span> your
-          website traffic?
+          website's traffic?
         </span>
 
-        <div className='grid grid-cols-1 gap-4 mt-6 md:grid-cols-3'>
-          <div className='px-6 py-3 text-lg font-medium bg-white rounded bg-opacity-80 text-primary hover:bg-opacity-90'>
+        <div className='grid grid-cols-1 gap-4 mx-auto mt-6 w-fit md:grid-cols-3'>
+          <div className='py-3 my-auto font-semibold tracking-tight duration-100 bg-gray-400 rounded-full shadow hover:bg-black hover:text-secondary-blue text-primary w-52 bg-opacity-80'>
             SEO Site Audit
           </div>
-          <div className='px-6 py-3 text-lg font-medium bg-white rounded bg-opacity-80 text-primary hover:bg-opacity-90'>
+          <div className='py-3 my-auto font-semibold tracking-tight duration-100 bg-gray-400 rounded-full shadow hover:bg-black hover:text-secondary-blue text-primary w-52 bg-opacity-80'>
             Competitor Analysis
           </div>
-          <div className='px-6 py-3 text-lg font-medium bg-white rounded bg-opacity-80 text-primary hover:bg-opacity-90'>
+          <div className='py-3 my-auto font-semibold tracking-tight duration-100 bg-gray-400 rounded-full shadow hover:bg-black hover:text-secondary-blue text-primary w-52 bg-opacity-80'>
             On-Page Optimization
           </div>
-          <div className='px-6 py-3 text-lg font-medium bg-white rounded bg-opacity-80 text-primary hover:bg-opacity-90'>
+          <div className='py-3 my-auto font-semibold tracking-tight duration-100 bg-gray-400 rounded-full shadow hover:bg-black hover:text-secondary-blue text-primary w-52 bg-opacity-80'>
             Keyword Strategy
           </div>
-          <div className='px-6 py-3 text-lg font-medium bg-white rounded bg-opacity-80 text-primary hover:bg-opacity-90'>
+          <div className='py-3 my-auto font-semibold tracking-tight duration-100 bg-gray-400 rounded-full shadow hover:bg-black hover:text-secondary-blue text-primary w-52 bg-opacity-80'>
             Tracking & Analysis
           </div>
-          <div className='px-6 py-3 text-lg font-medium bg-white rounded bg-opacity-80 text-primary hover:bg-opacity-90'>
+          <div className='py-3 my-auto font-semibold tracking-tight duration-100 bg-gray-400 rounded-full shadow hover:bg-black hover:text-secondary-blue text-primary w-52 bg-opacity-80'>
             XML Sitemap
           </div>
         </div>
