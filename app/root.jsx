@@ -64,10 +64,12 @@ export default function App() {
       </head>
       <body
         style={{ overflow: 'overlay' }}
-        className='scrollbar font-inter cursor-none'
+        className='scrollbar font-inter lg:cursor-none'
       >
         <Navbar />
-        <HeroCursor />
+        <div className='hidden lg:block'>
+          <HeroCursor />
+        </div>
         <LeavingPagePopup />
         <Outlet />
         <Footer />
