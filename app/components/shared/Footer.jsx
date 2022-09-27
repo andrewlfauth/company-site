@@ -24,44 +24,29 @@ function Footer() {
               </Link>
               <Link
                 className='text-sm tracking-tight duration-100 lg:cursor-none hover:text-accent-red w-fit hover:underline'
-                to='/'
+                to='/our-process'
               >
-                Services
+                Our Process
               </Link>
               <Link
                 className='text-sm tracking-tight duration-100 lg:cursor-none hover:text-accent-red w-fit hover:underline'
-                to='/'
+                to='/pricing'
               >
                 Pricing
-              </Link>
-              <Link
-                className='text-sm tracking-tight duration-100 lg:cursor-none hover:text-accent-red w-fit hover:underline'
-                to='/'
-              >
-                About
               </Link>
             </div>
 
             <div className='flex flex-col space-y-4'>
               <span className='text-lg tracking-wider'>Services</span>
-              <Link
-                className='text-sm tracking-tight duration-100 lg:cursor-none hover:text-accent-red w-fit hover:underline'
-                to='/'
-              >
+              <h3 className='text-sm tracking-tight duration-100 lg:cursor-none w-fit'>
                 Web Design
-              </Link>
-              <Link
-                className='text-sm tracking-tight duration-100 lg:cursor-none hover:text-accent-red w-fit hover:underline'
-                to='/'
-              >
+              </h3>
+              <h3 className='text-sm tracking-tight duration-100 lg:cursor-none w-fit'>
                 SEO
-              </Link>
-              <Link
-                className='text-sm tracking-tight duration-100 lg:cursor-none hover:text-accent-red w-fit hover:underline'
-                to='/'
-              >
+              </h3>
+              <h3 className='text-sm tracking-tight duration-100 lg:cursor-none w-fit'>
                 Content Strategy
-              </Link>
+              </h3>
             </div>
 
             <div className='flex flex-col space-y-4'>
