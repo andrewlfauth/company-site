@@ -651,14 +651,6 @@ textarea:focus-within ~ label {
   right: 0px;
 }
 
-.left-3 {
-  left: 0.75rem;
-}
-
-.top-1\/2 {
-  top: 50%;
-}
-
 .top-3 {
   top: 0.75rem;
 }
@@ -699,12 +691,20 @@ textarea:focus-within ~ label {
   bottom: -0.25rem;
 }
 
+.top-1\/2 {
+  top: 50%;
+}
+
 .bottom-4 {
   bottom: 1rem;
 }
 
 .left-4 {
   left: 1rem;
+}
+
+.left-3 {
+  left: 0.75rem;
 }
 
 .z-50 {
@@ -749,11 +749,6 @@ textarea:focus-within ~ label {
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .-mt-10 {
@@ -840,10 +835,6 @@ textarea:focus-within ~ label {
   margin-bottom: 1rem;
 }
 
-.ml-1 {
-  margin-left: 0.25rem;
-}
-
 .block {
   display: block;
 }
@@ -884,12 +875,12 @@ textarea:focus-within ~ label {
   height: 2rem;
 }
 
-.h-auto {
-  height: auto;
-}
-
 .h-screen {
   height: 100vh;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-2 {
@@ -920,10 +911,6 @@ textarea:focus-within ~ label {
 
 .w-8 {
   width: 2rem;
-}
-
-.w-\[400px\] {
-  width: 400px;
 }
 
 .w-screen {
@@ -982,10 +969,6 @@ textarea:focus-within ~ label {
   width: fit-content;
 }
 
-.w-52 {
-  width: 13rem;
-}
-
 .w-\[300px\] {
   width: 300px;
 }
@@ -996,10 +979,6 @@ textarea:focus-within ~ label {
 
 .w-\[60px\] {
   width: 60px;
-}
-
-.min-w-\[300px\] {
-  min-width: 300px;
 }
 
 .max-w-6xl {
@@ -1116,12 +1095,12 @@ textarea:focus-within ~ label {
           animation: rotate 8s ease-out infinite;
 }
 
-.cursor-none {
-  cursor: none;
-}
-
 .cursor-pointer {
   cursor: pointer;
+}
+
+.cursor-none {
+  cursor: none;
 }
 
 .select-none {
@@ -1129,10 +1108,6 @@ textarea:focus-within ~ label {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
@@ -1171,16 +1146,12 @@ textarea:focus-within ~ label {
   gap: 3.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-10 {
   gap: 2.5rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1247,10 +1218,6 @@ textarea:focus-within ~ label {
   border-radius: 9999px;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .rounded-t {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -1280,18 +1247,6 @@ textarea:focus-within ~ label {
   border-bottom-width: 2px;
 }
 
-.border-l-2 {
-  border-left-width: 2px;
-}
-
-.border-l-4 {
-  border-left-width: 4px;
-}
-
-.border-l-8 {
-  border-left-width: 8px;
-}
-
 .border-secondary-blue {
   --tw-border-opacity: 1;
   border-color: rgb(89 223 253 / var(--tw-border-opacity));
@@ -1317,17 +1272,8 @@ textarea:focus-within ~ label {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
-
 .border-opacity-80 {
   --tw-border-opacity: 0.8;
-}
-
-.border-opacity-70 {
-  --tw-border-opacity: 0.7;
 }
 
 .bg-primary {
@@ -1355,11 +1301,6 @@ textarea:focus-within ~ label {
   background-color: rgb(0 45 96 / var(--tw-bg-opacity));
 }
 
-.bg-accent-red {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 48 79 / var(--tw-bg-opacity));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1384,19 +1325,14 @@ textarea:focus-within ~ label {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
-.bg-gray-400 {
+.bg-accent-red {
   --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+  background-color: rgb(255 48 79 / var(--tw-bg-opacity));
 }
 
 .bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-70 {
@@ -1407,24 +1343,12 @@ textarea:focus-within ~ label {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-opacity-80 {
-  --tw-bg-opacity: 0.8;
-}
-
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
 }
 
-.bg-opacity-90 {
-  --tw-bg-opacity: 0.9;
-}
-
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.bg-none {
-  background-image: none;
 }
 
 .bg-gradient-to-br {
@@ -1439,26 +1363,6 @@ textarea:focus-within ~ label {
 
 .to-primary {
   --tw-gradient-to: #002651;
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-right-top {
-  background-position: right top;
-}
-
-.bg-bottom {
-  background-position: bottom;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .p-2 {
@@ -1507,14 +1411,14 @@ textarea:focus-within ~ label {
   padding-right: 1.5rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-12 {
@@ -1543,10 +1447,6 @@ textarea:focus-within ~ label {
 
 .pb-3 {
   padding-bottom: 0.75rem;
-}
-
-.pl-8 {
-  padding-left: 2rem;
 }
 
 .pr-2 {
@@ -1593,16 +1493,8 @@ textarea:focus-within ~ label {
   padding-bottom: 1rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
-}
-
-.pt-36 {
-  padding-top: 9rem;
-}
-
-.pt-40 {
-  padding-top: 10rem;
+.pl-8 {
+  padding-left: 2rem;
 }
 
 .text-left {
@@ -1617,12 +1509,12 @@ textarea:focus-within ~ label {
   font-family: "Inter", serif;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
 .font-merriweather {
   font-family: "Merriweather", serif;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-2xl {
@@ -1655,11 +1547,6 @@ textarea:focus-within ~ label {
   line-height: 1.5rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -1675,6 +1562,11 @@ textarea:focus-within ~ label {
   line-height: 1;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -1688,12 +1580,12 @@ textarea:focus-within ~ label {
   font-weight: 800;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .font-semibold {
   font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .font-light {
@@ -1718,10 +1610,6 @@ textarea:focus-within ~ label {
 
 .leading-none {
   line-height: 1;
-}
-
-.leading-9 {
-  line-height: 2.25rem;
 }
 
 .tracking-tight {
@@ -1833,12 +1721,12 @@ textarea:focus-within ~ label {
   outline-offset: 2px;
 }
 
-.outline-accent-red {
-  outline-color: #FF304F;
-}
-
 .outline-blue-800 {
   outline-color: #1e40af;
+}
+
+.outline-accent-red {
+  outline-color: #FF304F;
 }
 
 .transition {
@@ -2019,16 +1907,6 @@ textarea:focus-within ~ label {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-black:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-primary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 38 81 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-primary-dark:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 10 22 / var(--tw-bg-opacity));
@@ -2108,16 +1986,6 @@ textarea:focus-within ~ label {
     width: 13rem;
   }
 
-  .sm\:w-fit {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .sm\:gap-4 {
     gap: 1rem;
   }
@@ -2160,14 +2028,14 @@ textarea:focus-within ~ label {
     line-height: 2.25rem;
   }
 
-  .sm\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
@@ -2252,12 +2120,6 @@ textarea:focus-within ~ label {
 
   .md\:w-\[400px\] {
     width: 400px;
-  }
-
-  .md\:w-fit {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
   }
 
   .md\:columns-2 {
@@ -2569,11 +2431,6 @@ textarea:focus-within ~ label {
     padding-right: 2rem;
   }
 
-  .lg\:py-6 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-
   .lg\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -2594,8 +2451,18 @@ textarea:focus-within ~ label {
     padding-right: 1.5rem;
   }
 
-  .lg\:pt-40 {
-    padding-top: 10rem;
+  .lg\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .lg\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .lg\:pt-36 {
+    padding-top: 9rem;
   }
 
   .lg\:pb-36 {
@@ -2614,8 +2481,8 @@ textarea:focus-within ~ label {
     padding-bottom: 2rem;
   }
 
-  .lg\:pt-36 {
-    padding-top: 9rem;
+  .lg\:pt-20 {
+    padding-top: 5rem;
   }
 
   .lg\:text-left {

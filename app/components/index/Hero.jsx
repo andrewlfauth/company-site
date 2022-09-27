@@ -21,7 +21,7 @@ function Hero() {
 
   return (
     <div className='overflow-hidden bg-gradient-to-b from-blue-800 to-primary'>
-      <div className='flex flex-col md:items-center justify-between pt-44 -mt-[1px] md:pt-56 md:pb-12 lg:pt-40 lg:pb-36 lg:flex-row px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto font-inter relative'>
+      <div className='flex flex-col md:items-center justify-between pt-44 -mt-[1px] md:pt-56 md:pb-12 lg:py-36 lg:flex-row px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto font-inter relative'>
         <div className='flex-grow-0 md:mr-6 lg:mr-10'>
           <h1
             ref={headingRef}
