@@ -7,13 +7,16 @@ function Logo() {
 
   return (
     <>
-      <Link to='/' className='flex items-end lg:cursor-none'>
+      <Link
+        to='/'
+        className='flex items-end lg:cursor-none'
+        onClick={() => setPlay(true)}
+      >
         <img
           ref={logoRef}
           src='https://res.cloudinary.com/dpnkrz8c8/image/upload/v1657574578/Company/logo_kxaqvc.svg'
           alt='company logo'
           className='w-6 rotate-45 opacity-0 lg:cursor-none hover:animate-wiggle'
-          onClick={() => setPlay(true)}
         />
         <span className='text-2xl font-bold tracking-tighter text-white'>
           Liftoff Web
