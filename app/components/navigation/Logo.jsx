@@ -1,4 +1,3 @@
-import { useRef } from 'react'
 import { Link } from '@remix-run/react'
 import useLogoAnimation from '../../hooks/useLogoAnimation'
 
